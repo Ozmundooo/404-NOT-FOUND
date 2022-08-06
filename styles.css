@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'Regular';
-    src: url('./Inconsolata-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Bold';
+    font-family: 'Inconsolata';
     src: url('./Inconsolata-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'SpaceMono';
+    font-family: 'Bold';
+    src: url('./SpaceMono-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Regular';
     src: url('./SpaceMono-Regular.ttf');
 }
 
@@ -18,7 +18,7 @@
 }
 
 .logo{
-    font-family: 'Bold';
+    font-family: 'Inconsolata';
     font-size: 24px;
     margin-left: 30px;
 }
@@ -51,7 +51,7 @@
 
 .subtext{
     font-size: 24px;
-    font-family: 'SpaceMono';
+    font-family: 'Regular';
     margin-bottom: 64px;
 }
 
@@ -70,7 +70,7 @@
     }
     
     .logo{
-        font-family: 'Bold';
+        font-family: 'Inconsolata';
         font-size: 16px;
         margin-left: 15px;
     }
@@ -104,7 +104,7 @@
     
     .subtext{
         font-size: 16px;
-        font-family: 'SpaceMono';
+        font-family: 'Regular';
         margin-bottom: 64px;
     }
     
